@@ -1,7 +1,10 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MyController;
+use App\Http\Controllers\BackendController;
+use App\Http\Middleware\Admin;
+use Illuminate\Support\Facades\Route;
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -56,3 +59,11 @@ Route::delete('siswa/{id}', [MyController::class, 'destroy']);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+//importt middlewar
+//route admin/backend
+Route::group(['prefix'=>'admin','middleware'=>['auth', ]], function (){
+    Route::get('/', [BackendController::class,'index']);
+});
+
+// Admin::class
