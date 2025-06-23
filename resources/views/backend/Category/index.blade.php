@@ -34,7 +34,8 @@
                                     <a href="{{ route('category.edit', $data->id)}}" class="btn btn-sm btn-warning">
                                         Edit
                                     </a>
-                                    <a href="{{ route('category.destroy', $data->id)}}" class="btn btn-sm btn-danger" data-confirm-delete="true">
+                                    <a href="{{ route('category.destroy', $data->id)}}" class="btn btn-sm btn-danger"
+                                         data-confirm-delete="true">
                                         Delete
                                     </a>
                                 </td>
