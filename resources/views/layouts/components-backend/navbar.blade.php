@@ -38,7 +38,7 @@
                             <div class="position-relative">
                               <a href="./main/app-chat.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-chat.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-chat.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">
@@ -49,7 +49,7 @@
                               </a>
                               <a href="./main/app-invoice.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-invoice.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-invoice.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">Invoice App</h6>
@@ -58,7 +58,7 @@
                               </a>
                               <a href="./main/app-contact2.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-mobile.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-mobile.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">
@@ -69,7 +69,7 @@
                               </a>
                               <a href="./main/app-email.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-message-box.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-message-box.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">Email App</h6>
@@ -82,7 +82,7 @@
                             <div class="position-relative">
                               <a href="./main/page-user-profile.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-cart.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-cart.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">
@@ -93,7 +93,7 @@
                               </a>
                               <a href="./main/app-calendar.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-date.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-date.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">
@@ -104,7 +104,7 @@
                               </a>
                               <a href="./main/app-contact.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-lifebuoy.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-lifebuoy.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">
@@ -115,7 +115,7 @@
                               </a>
                               <a href="./main/app-notes.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-application.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-application.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">
@@ -191,8 +191,8 @@
 
         <div class="d-block d-lg-none py-4">
           <a href="./main/index.html" class="text-nowrap logo-img">
-            <img src="./assets/backend/images/logos/dark-logo.svg" class="dark-logo" alt="Logo-Dark" />
-            <img src="./assets/backend/images/logos/light-logo.svg" class="light-logo" alt="Logo-light" />
+            <img src="{{asset('assets/backend/images/logos/dark-logo.svg')}}" class="dark-logo" alt="Logo-Dark" />
+            <img src="{{asset('assets/backend/images/logos/light-logo.svg')}}" class="light-logo" alt="Logo-light" />
           </a>
         </div>
         <a class="navbar-toggler nav-icon-hover-bg rounded-circle p-0 mx-0 border-0" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -217,31 +217,31 @@
               </li>
               <li class="nav-item nav-icon-hover-bg rounded-circle dropdown">
                 <a class="nav-link" href="javascript:void(0)" id="drop2" aria-expanded="false">
-                  <img src="./assets/backend/images/svgs/icon-flag-en.svg" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
+                  <img src="{{asset('assets/backend/images/svgs/icon-flag-en.svg')}}" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
                   <div class="message-body">
                     <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
                       <div class="position-relative">
-                        <img src="./assets/backend/images/svgs/icon-flag-en.svg" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-flag-en.svg')}}" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
                       </div>
                       <p class="mb-0 fs-3">English (UK)</p>
                     </a>
                     <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
                       <div class="position-relative">
-                        <img src="./assets/backend/images/svgs/icon-flag-cn.svg" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-flag-cn.svg')}}" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
                       </div>
                       <p class="mb-0 fs-3">中国人 (Chinese)</p>
                     </a>
                     <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
                       <div class="position-relative">
-                        <img src="./assets/backend/images/svgs/icon-flag-fr.svg" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-flag-fr.svg')}}" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
                       </div>
                       <p class="mb-0 fs-3">français (French)</p>
                     </a>
                     <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
                       <div class="position-relative">
-                        <img src="./assets/backend/images/svgs/icon-flag-sa.svg" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-flag-sa.svg')}}" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
                       </div>
                       <p class="mb-0 fs-3">عربي (Arabic)</p>
                     </a>
@@ -281,7 +281,7 @@
                   <div class="message-body" data-simplebar>
                     <a href="javascript:void(0)" class="py-6 px-7 d-flex align-items-center dropdown-item">
                       <span class="me-3">
-                        <img src="./assets/backend/images/profile/user-2.jpg" alt="user" class="rounded-circle" width="48" height="48" />
+                        <img src="{{asset('assets/backend/images/profile/user-2.jpg')}}" alt="user" class="rounded-circle" width="48" height="48" />
                       </span>
                       <div class="w-100">
                         <h6 class="mb-1 fw-semibold lh-base">Roman Joined the Team!</h6>
@@ -290,7 +290,7 @@
                     </a>
                     <a href="javascript:void(0)" class="py-6 px-7 d-flex align-items-center dropdown-item">
                       <span class="me-3">
-                        <img src="./assets/backend/images/profile/user-3.jpg" alt="user" class="rounded-circle" width="48" height="48" />
+                        <img src="{{asset('assets/backend/images/profile/user-3.jpg')}}" alt="user" class="rounded-circle" width="48" height="48" />
                       </span>
                       <div class="w-100">
                         <h6 class="mb-1 fw-semibold lh-base">New message</h6>
@@ -299,7 +299,7 @@
                     </a>
                     <a href="javascript:void(0)" class="py-6 px-7 d-flex align-items-center dropdown-item">
                       <span class="me-3">
-                        <img src="./assets/backend/images/profile/user-4.jpg" alt="user" class="rounded-circle" width="48" height="48" />
+                        <img src="{{asset('assets/backend/images/profile/user-4.jpg')}}" alt="user" class="rounded-circle" width="48" height="48" />
                       </span>
                       <div class="w-100">
                         <h6 class="mb-1 fw-semibold lh-base">Bianca sent payment</h6>
@@ -308,7 +308,7 @@
                     </a>
                     <a href="javascript:void(0)" class="py-6 px-7 d-flex align-items-center dropdown-item">
                       <span class="me-3">
-                        <img src="./assets/backend/images/profile/user-5.jpg" alt="user" class="rounded-circle" width="48" height="48" />
+                        <img src="{{asset('assets/backend/images/profile/user-5.jpg')}}" alt="user" class="rounded-circle" width="48" height="48" />
                       </span>
                       <div class="w-100">
                         <h6 class="mb-1 fw-semibold lh-base">Jolly completed tasks</h6>
@@ -317,7 +317,7 @@
                     </a>
                     <a href="javascript:void(0)" class="py-6 px-7 d-flex align-items-center dropdown-item">
                       <span class="me-3">
-                        <img src="./assets/backend/images/profile/user-6.jpg" alt="user" class="rounded-circle" width="48" height="48" />
+                        <img src="{{asset('assets/backend/images/profile/user-6.jpg')}}" alt="user" class="rounded-circle" width="48" height="48" />
                       </span>
                       <div class="w-100">
                         <h6 class="mb-1 fw-semibold lh-base">John received payment</h6>
@@ -326,7 +326,7 @@
                     </a>
                     <a href="javascript:void(0)" class="py-6 px-7 d-flex align-items-center dropdown-item">
                       <span class="me-3">
-                        <img src="./assets/backend/images/profile/user-7.jpg" alt="user" class="rounded-circle" width="48" height="48" />
+                        <img src="{{asset('assets/backend/images/profile/user-7.jpg')}}" alt="user" class="rounded-circle" width="48" height="48" />
                       </span>
                       <div class="w-100">
                         <h6 class="mb-1 fw-semibold lh-base">Roman Joined the Team!</h6>
@@ -350,7 +350,7 @@
                 <a class="nav-link pe-0" href="javascript:void(0)" id="drop1" aria-expanded="false">
                   <div class="d-flex align-items-center">
                     <div class="user-profile-img">
-                      <img src="./assets/backend/images/profile/user-1.jpg" class="rounded-circle" width="35" height="35" alt="modernize-img" />
+                      <img src="{{asset('assets/backend/images/profile/user-1.jpg')}}" class="rounded-circle" width="35" height="35" alt="modernize-img" />
                     </div>
                   </div>
                 </a>
@@ -360,12 +360,12 @@
                       <h5 class="mb-0 fs-5 fw-semibold">User Profile</h5>
                     </div>
                     <div class="d-flex align-items-center py-9 mx-7 border-bottom">
-                      <img src="./assets/backend/images/profile/user-1.jpg" class="rounded-circle" width="80" height="80" alt="modernize-img" />
+                      <img src="{{asset('assets/backend/images/profile/user-1.jpg')}}" class="rounded-circle" width="80" height="80" alt="modernize-img" />
                       <div class="ms-3">
-                        <h5 class="mb-1 fs-3">Bilqis Khairunnisa</h5>
+                        <h5 class="mb-1 fs-3"> {{ Auth::user()->name }}</h5>
                         <span class="mb-1 d-block">Developer</span>
                         <p class="mb-0 d-flex align-items-center gap-2">
-                          <i class="ti ti-mail fs-4"></i> bilqis@gmail.com
+                          <i class="ti ti-mail fs-4"></i>  {{ Auth::user()->email }}
                         </p>
                       </div>
                     </div>
@@ -380,12 +380,22 @@
                         
                           <div class="col-6">
                             <div class="m-n4 unlimited-img">
-                              <img src="./assets/backend/images/backgrounds/unlimited-bg.png" alt="modernize-img" class="w-100" />
+                              <img src="{{asset('assets/backend/images/backgrounds/unlimited-bg.png')}}" alt="modernize-img" class="w-100" />
                             </div>
                           </div>
                         </div>
                       </div>
-                      <a href="./main/authentication-login.html" class="btn btn-outline-primary">Log Out</a>
+                      <a href="{{route('logout')}}" onclick="event.preventDefault();
+                      document.getElementById('logout-form').submit();"
+                    class="btn btn-outline-primary" tabindex="0" type="button" aria-label="logout" 
+                     data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="logout">
+                       Log Out
+                     </a>
+           
+                     <form action="{{route('logout')}}" method="post" id="logout-form">
+                       @csrf
+                     </form>
+                      {{-- <a href="./main/authentication-login.html" class="btn btn-outline-primary">Log Out</a> --}}
                     </div>
                   </div>
                 </div>
@@ -408,7 +418,7 @@
       <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="mobilenavbar" aria-labelledby="offcanvasWithBothOptionsLabel">
         <nav class="sidebar-nav scroll-sidebar">
           <div class="offcanvas-header justify-content-between">
-            <img src="./assets/backend/images/logos/favicon.ico" alt="modernize-img" class="img-fluid" />
+            <img src="{{asset('assets/backend/images/logos/favicon.ico')}}" alt="modernize-img" class="img-fluid" />
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body h-n80" data-simplebar="" data-simplebar>
@@ -424,7 +434,7 @@
                   <li class="sidebar-item py-2">
                     <a href="./main/app-chat.html" class="d-flex align-items-center">
                       <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                        <img src="./assets/backend/images/svgs/icon-dd-chat.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-dd-chat.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                       </div>
                       <div>
                         <h6 class="mb-1 bg-hover-primary">Chat Application</h6>
@@ -435,7 +445,7 @@
                   <li class="sidebar-item py-2">
                     <a href="./main/app-invoice.html" class="d-flex align-items-center">
                       <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                        <img src="./assets/backend/images/svgs/icon-dd-invoice.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-dd-invoice.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                       </div>
                       <div>
                         <h6 class="mb-1 bg-hover-primary">Invoice App</h6>
@@ -446,7 +456,7 @@
                   <li class="sidebar-item py-2">
                     <a href="./main/app-cotact.html" class="d-flex align-items-center">
                       <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                        <img src="./assets/backend/images/svgs/icon-dd-mobile.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-dd-mobile.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                       </div>
                       <div>
                         <h6 class="mb-1 bg-hover-primary">Contact Application</h6>
@@ -457,7 +467,7 @@
                   <li class="sidebar-item py-2">
                     <a href="./main/app-email.html" class="d-flex align-items-center">
                       <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                        <img src="./assets/backend/images/svgs/icon-dd-message-box.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-dd-message-box.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                       </div>
                       <div>
                         <h6 class="mb-1 bg-hover-primary">Email App</h6>
@@ -468,7 +478,7 @@
                   <li class="sidebar-item py-2">
                     <a href="./main/page-user-profile.html" class="d-flex align-items-center">
                       <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                        <img src="./assets/backend/images/svgs/icon-dd-cart.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-dd-cart.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                       </div>
                       <div>
                         <h6 class="mb-1 bg-hover-primary">User Profile</h6>
@@ -479,7 +489,7 @@
                   <li class="sidebar-item py-2">
                     <a href="./main/app-calendar.html" class="d-flex align-items-center">
                       <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                        <img src="./assets/backend/images/svgs/icon-dd-date.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-dd-date.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                       </div>
                       <div>
                         <h6 class="mb-1 bg-hover-primary">Calendar App</h6>
@@ -490,7 +500,7 @@
                   <li class="sidebar-item py-2">
                     <a href="./main/app-contact2.html" class="d-flex align-items-center">
                       <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                        <img src="./assets/backend/images/svgs/icon-dd-lifebuoy.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-dd-lifebuoy.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                       </div>
                       <div>
                         <h6 class="mb-1 bg-hover-primary">Contact List Table</h6>
@@ -501,7 +511,7 @@
                   <li class="sidebar-item py-2">
                     <a href="./main/app-notes.html" class="d-flex align-items-center">
                       <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                        <img src="./assets/backend/images/svgs/icon-dd-application.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-dd-application.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                       </div>
                       <div>
                         <h6 class="mb-1 bg-hover-primary">Notes Application</h6>
@@ -577,8 +587,8 @@
           </li>
           <li class="nav-item d-none d-xl-block">
             <a href="./main/index.html" class="text-nowrap nav-link">
-              <img src="./assets/backend/images/logos/dark-logo.svg" class="dark-logo" width="180" alt="modernize-img" />
-              <img src="./assets/backend/images/logos/light-logo.svg" class="light-logo" width="180" alt="modernize-img" />
+              <img src="{{asset('assets/backend/images/logos/dark-logo.svg')}}" class="dark-logo" width="180" alt="modernize-img" />
+              <img src="{{asset('assets/backend/images/logos/light-logo.svg')}}" class="light-logo" width="180" alt="modernize-img" />
             </a>
           </li>
           <li class="nav-item nav-icon-hover-bg rounded-circle d-none d-xl-flex">
@@ -608,7 +618,7 @@
                             <div class="position-relative">
                               <a href="./main/app-chat.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-chat.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-chat.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">
@@ -619,7 +629,7 @@
                               </a>
                               <a href="./main/app-invoice.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-invoice.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-invoice.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">Invoice App</h6>
@@ -628,7 +638,7 @@
                               </a>
                               <a href="./main/app-contact2.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-mobile.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-mobile.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">
@@ -639,7 +649,7 @@
                               </a>
                               <a href="./main/app-email.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-message-box.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-message-box.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">Email App</h6>
@@ -652,7 +662,7 @@
                             <div class="position-relative">
                               <a href="./main/page-user-profile.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-cart.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-cart.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">
@@ -663,7 +673,7 @@
                               </a>
                               <a href="./main/app-calendar.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-date.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-date.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">
@@ -674,7 +684,7 @@
                               </a>
                               <a href="./main/app-contact.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-lifebuoy.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-lifebuoy.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">
@@ -685,7 +695,7 @@
                               </a>
                               <a href="./main/app-notes.html" class="d-flex align-items-center pb-9 position-relative">
                                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                  <img src="./assets/backend/images/svgs/icon-dd-application.svg" alt="modernize-img" class="img-fluid" width="24" height="24" />
+                                  <img src="{{asset('assets/backend/images/svgs/icon-dd-application.svg')}}" alt="modernize-img" class="img-fluid" width="24" height="24" />
                                 </div>
                                 <div>
                                   <h6 class="mb-1 fw-semibold fs-3">
@@ -760,7 +770,7 @@
         </ul>
         <div class="d-block d-xl-none">
           <a href="./main/index.html" class="text-nowrap nav-link">
-            <img src="./assets/backend/images/logos/dark-logo.svg" width="180" alt="modernize-img" />
+            <img src="{{asset('assets/backend/images/logos/dark-logo.svg')}}" width="180" alt="modernize-img" />
           </a>
         </div>
         <a class="navbar-toggler nav-icon-hover-bg rounded-circle p-0 mx-0 border-0" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -787,31 +797,31 @@
               </li>
               <li class="nav-item nav-icon-hover-bg rounded-circle dropdown">
                 <a class="nav-link" href="javascript:void(0)" id="drop2" aria-expanded="false">
-                  <img src="./assets/backend/images/svgs/icon-flag-en.svg" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
+                  <img src="{{asset('assets/backend/images/svgs/icon-flag-en.svg')}}" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
                   <div class="message-body">
                     <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
                       <div class="position-relative">
-                        <img src="./assets/backend/images/svgs/icon-flag-en.svg" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-flag-en.svg')}}" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
                       </div>
                       <p class="mb-0 fs-3">English (UK)</p>
                     </a>
                     <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
                       <div class="position-relative">
-                        <img src="./assets/backend/images/svgs/icon-flag-cn.svg" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-flag-cn.svg')}}" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
                       </div>
                       <p class="mb-0 fs-3">中国人 (Chinese)</p>
                     </a>
                     <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
                       <div class="position-relative">
-                        <img src="./assets/backend/images/svgs/icon-flag-fr.svg" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-flag-fr.svg')}}" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
                       </div>
                       <p class="mb-0 fs-3">français (French)</p>
                     </a>
                     <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
                       <div class="position-relative">
-                        <img src="./assets/backend/images/svgs/icon-flag-sa.svg" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
+                        <img src="{{asset('assets/backend/images/svgs/icon-flag-sa.svg')}}" alt="modernize-img" width="20px" height="20px" class="rounded-circle object-fit-cover round-20" />
                       </div>
                       <p class="mb-0 fs-3">عربي (Arabic)</p>
                     </a>
@@ -851,7 +861,7 @@
                   <div class="message-body" data-simplebar>
                     <a href="javascript:void(0)" class="py-6 px-7 d-flex align-items-center dropdown-item">
                       <span class="me-3">
-                        <img src="./assets/backend/images/profile/user-2.jpg" alt="user" class="rounded-circle" width="48" height="48" />
+                        <img src="{{asset('assets/backend/images/profile/user-2.jpg')}}" alt="user" class="rounded-circle" width="48" height="48" />
                       </span>
                       <div class="w-100">
                         <h6 class="mb-1 fw-semibold lh-base">Roman Joined the Team!</h6>
@@ -860,7 +870,7 @@
                     </a>
                     <a href="javascript:void(0)" class="py-6 px-7 d-flex align-items-center dropdown-item">
                       <span class="me-3">
-                        <img src="./assets/backend/images/profile/user-3.jpg" alt="user" class="rounded-circle" width="48" height="48" />
+                        <img src="{{asset('assets/backend/images/profile/user-3.jpg')}}" alt="user" class="rounded-circle" width="48" height="48" />
                       </span>
                       <div class="w-100">
                         <h6 class="mb-1 fw-semibold lh-base">New message</h6>
@@ -869,7 +879,7 @@
                     </a>
                     <a href="javascript:void(0)" class="py-6 px-7 d-flex align-items-center dropdown-item">
                       <span class="me-3">
-                        <img src="./assets/backend/images/profile/user-4.jpg" alt="user" class="rounded-circle" width="48" height="48" />
+                        <img src="{{asset('assets/backend/images/profile/user-4.jpg')}}" alt="user" class="rounded-circle" width="48" height="48" />
                       </span>
                       <div class="w-100">
                         <h6 class="mb-1 fw-semibold lh-base">Bianca sent payment</h6>
@@ -878,7 +888,7 @@
                     </a>
                     <a href="javascript:void(0)" class="py-6 px-7 d-flex align-items-center dropdown-item">
                       <span class="me-3">
-                        <img src="./assets/backend/images/profile/user-5.jpg" alt="user" class="rounded-circle" width="48" height="48" />
+                        <img src="{{asset('assets/backend/images/profile/user-5.jpg')}}" alt="user" class="rounded-circle" width="48" height="48" />
                       </span>
                       <div class="w-100">
                         <h6 class="mb-1 fw-semibold lh-base">Jolly completed tasks</h6>
@@ -887,7 +897,7 @@
                     </a>
                     <a href="javascript:void(0)" class="py-6 px-7 d-flex align-items-center dropdown-item">
                       <span class="me-3">
-                        <img src="./assets/backend/images/profile/user-6.jpg" alt="user" class="rounded-circle" width="48" height="48" />
+                        <img src="{{asset('assets/backend/images/profile/user-6.jpg')}}" alt="user" class="rounded-circle" width="48" height="48" />
                       </span>
                       <div class="w-100">
                         <h6 class="mb-1 fw-semibold lh-base">John received payment</h6>
@@ -896,7 +906,7 @@
                     </a>
                     <a href="javascript:void(0)" class="py-6 px-7 d-flex align-items-center dropdown-item">
                       <span class="me-3">
-                        <img src="./assets/backend/images/profile/user-7.jpg" alt="user" class="rounded-circle" width="48" height="48" />
+                        <img src="{{asset('assets/backend/images/profile/user-7.jpg')}}" alt="user" class="rounded-circle" width="48" height="48" />
                       </span>
                       <div class="w-100">
                         <h6 class="mb-1 fw-semibold lh-base">Roman Joined the Team!</h6>
@@ -920,7 +930,7 @@
                 <a class="nav-link pe-0" href="javascript:void(0)" id="drop1" aria-expanded="false">
                   <div class="d-flex align-items-center">
                     <div class="user-profile-img">
-                      <img src="./assets/backend/images/profile/user-1.jpg" class="rounded-circle" width="35" height="35" alt="modernize-img" />
+                      <img src="{{asset('assets/backend/images/profile/user-1.jpg')}}" class="rounded-circle" width="35" height="35" alt="modernize-img" />
                     </div>
                   </div>
                 </a>
@@ -930,7 +940,7 @@
                       <h5 class="mb-0 fs-5 fw-semibold">User Profile</h5>
                     </div>
                     <div class="d-flex align-items-center py-9 mx-7 border-bottom">
-                      <img src="./assets/backend/images/profile/user-1.jpg" class="rounded-circle" width="80" height="80" alt="modernize-img" />
+                      <img src="{{asset('assets/backend/images/profile/user-1.jpg')}}" class="rounded-circle" width="80" height="80" alt="modernize-img" />
                       <div class="ms-3">
                         <h5 class="mb-1 fs-3">Mathew Anderson</h5>
                         <span class="mb-1 d-block">Designer</span>
@@ -942,7 +952,7 @@
                     <div class="message-body">
                       <a href="./main/page-user-profile.html" class="py-8 px-7 mt-8 d-flex align-items-center">
                         <span class="d-flex align-items-center justify-content-center text-bg-light rounded-1 p-6">
-                          <img src="./assets/backend/images/svgs/icon-account.svg" alt="modernize-img" width="24" height="24" />
+                          <img src="{{asset('assets/backend/images/svgs/icon-account.svg')}}" alt="modernize-img" width="24" height="24" />
                         </span>
                         <div class="w-100 ps-3">
                           <h6 class="mb-1 fs-3 fw-semibold lh-base">My Profile</h6>
@@ -951,7 +961,7 @@
                       </a>
                       <a href="./main/app-email.html" class="py-8 px-7 d-flex align-items-center">
                         <span class="d-flex align-items-center justify-content-center text-bg-light rounded-1 p-6">
-                          <img src="./assets/backend/images/svgs/icon-inbox.svg" alt="modernize-img" width="24" height="24" />
+                          <img src="{{asset('assets/backend/images/svgs/icon-inbox.svg')}}" alt="modernize-img" width="24" height="24" />
                         </span>
                         <div class="w-100 ps-3">
                           <h6 class="mb-1 fs-3 fw-semibold lh-base">My Inbox</h6>
@@ -960,7 +970,7 @@
                       </a>
                       <a href="./main/app-notes.html" class="py-8 px-7 d-flex align-items-center">
                         <span class="d-flex align-items-center justify-content-center text-bg-light rounded-1 p-6">
-                          <img src="./assets/backend/images/svgs/icon-tasks.svg" alt="modernize-img" width="24" height="24" />
+                          <img src="{{asset('assets/backend/images/svgs/icon-tasks.svg')}}" alt="modernize-img" width="24" height="24" />
                         </span>
                         <div class="w-100 ps-3">
                           <h6 class="mb-1 fs-3 fw-semibold lh-base">My Task</h6>
@@ -977,7 +987,7 @@
                           </div>
                           <div class="col-6">
                             <div class="m-n4 unlimited-img">
-                              <img src="./assets/backend/images/backgrounds/unlimited-bg.png" alt="modernize-img" class="w-100" />
+                              <img src="{{asset('assets/backend/images/backgrounds/unlimited-bg.png')}}" alt="modernize-img" class="w-100" />
                             </div>
                           </div>
                         </div>

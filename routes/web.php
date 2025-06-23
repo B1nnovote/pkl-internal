@@ -1,21 +1,22 @@
 <?php
-
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\MyController;
 use App\Http\Controllers\BackendController;
 use App\Http\Middleware\Admin;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/', function () {
+Route::get('/', function() {
     return view('welcome');
 });
 
 // route basic 
-Route::get('about', function () {
+Route::get('about', function() {
     return 'ini halaman about';
 });
 
-Route::get('profile', function () {
+Route::get('profile', function() {
     return view('profile');
 });
 
@@ -62,8 +63,15 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 //importt middlewar
 //route admin/backend
-Route::group(['prefix'=>'admin','middleware'=>['auth', ]], function (){
+Route::group(
+    [
+        'prefix'=>'admin',
+        'middleware'=>['auth', Admin::class ]], 
+function (){
     Route::get('/', [BackendController::class,'index']);
-});
+    //crud
+    Route::resource('/category', CategoryController::class);
+    Route::resource('/product', ProductController::class);
+  
 
-// Admin::class
+});
