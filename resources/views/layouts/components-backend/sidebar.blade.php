@@ -20,7 +20,7 @@
        
             
           <li class="sidebar-item">
-            <a class="sidebar-link" href="./main/index4.html" aria-expanded="false">
+            <a class="sidebar-link" href="{{ url('admin/category') }}" aria-expanded="false">
               <span>
                 <i class="ti ti-cpu"></i>
               </span>
@@ -28,7 +28,7 @@
             </a>
           </li>
           <li class="sidebar-item">
-            <a class="sidebar-link" href="./main/index5.html" aria-expanded="false">
+            <a class="sidebar-link" href="{{ url('admin/product') }}" aria-expanded="false">
               <span>
                 <i class="ti ti-activity-heartbeat"></i>
               </span>

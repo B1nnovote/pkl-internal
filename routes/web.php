@@ -3,31 +3,39 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\MyController;
 use App\Http\Controllers\BackendController;
+use App\Http\Controllers\frontendController;
 use App\Http\Middleware\Admin;
 use Illuminate\Support\Facades\Route;
 
+// Route::get('/', function() {
+//     return view('layouts.components-frontend.frontend');
+// });
 
-Route::get('/', function() {
-    return view('welcome');
-});
+//route member atau guest
+Route::get('/',[FrontendController::class,'index']);
+Route::get('/about', [FrontendController::class, 'about']);
+Route::get('/product', [FrontendController::class, 'product']);
+Route::get('/cart', [FrontendController::class, 'cart']);
+Auth::routes();
 
-// route basic 
-Route::get('about', function() {
-    return 'ini halaman about';
-});
 
-Route::get('profile', function() {
-    return view('profile');
-});
+// // route basic 
+// Route::get('about', function() {
+//     return 'ini halaman about';
+// });
 
-// route parameter (ditandai dengan {})
-Route::get('produk/{namaProduk}', function($a) {
-    return 'saya membeli <b>' . $a . '<b>';
-});
+// Route::get('profile', function() {
+//     return view('profile');
+// });
 
-Route::get('beli/{barang}/{jumlah}', function($a,$b){
-    return view('beli', compact('a','b'));
-});
+// // route parameter (ditandai dengan {})
+// Route::get('produk/{namaProduk}', function($a) {
+//     return 'saya membeli <b>' . $a . '<b>';
+// });
+
+// Route::get('beli/{barang}/{jumlah}', function($a,$b){
+//     return view('beli', compact('a','b'));
+// });
 
 //optional parameter 
 Route::get('kategori/{namaKategori?}', function($nama=null){
