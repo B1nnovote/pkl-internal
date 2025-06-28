@@ -35,6 +35,15 @@
               <span class="hide-menu">Product</span>
             </a>
           </li>
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="{{ route('backend.orders.index') }}" aria-expanded="false">
+              <span>
+                <i class="ti ti-activity-heartbeat"></i>
+              </span>
+              <span class="hide-menu">Order</span>
+            </a>
+          </li>
+        
         
           </li>
         </ul>

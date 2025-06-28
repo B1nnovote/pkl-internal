@@ -1,4 +1,4 @@
-@extends('layouts.components-frontend.frontend')
+@extends('layouts.frontend')
 @section('content')
 
 <!-- breadcrumb__start -->
