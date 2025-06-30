@@ -397,7 +397,7 @@
                     <div class="minicart_cart_text ">
                         <strong>Cart</strong>
                     </div>
-                    <button class="minicart_close_btn">
+                    <button class="minicart__close__btn">
                         <i class="fa fa-close"></i>
                     </button>
 
@@ -407,13 +407,13 @@
                     @forelse ($cartItems as $item)
                         <div class="minicart__single">
 
-                            <div class="minicart_single_img">
+                            <div class="minicart__single__img">
                                 <a href="{{ route('product.show', $item->product->slug) }}">
                                     <img src="{{ Storage::url($item->product->image) }}"
                                         alt="{{ $item->product->name }}">
                                 </a>
 
-                                <div class="minicart_single_close">
+                                <div class="minicart__single__close">
                                     <form action="{{ route('cart.remove', $item->id) }}" method="POST">
                                         @csrf
                                         @method('DELETE')
